@@ -1,0 +1,6 @@
+PyMuPDF
+openai
+faiss-cpu
+numpy
+gradio
+tiktoken
