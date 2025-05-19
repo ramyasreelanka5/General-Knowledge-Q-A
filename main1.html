@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create an Account</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Brand Logo">
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="login-btn">
+      <a href="#">Log in</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="info-section">
+      <h1>Create an Account</h1>
+      <p>Sign up to start experiencing amazing features:</p>
+      <ul>
+        <li>Access personalized content</li>
+        <li>Seamless and secure login</li>
+        <li>Exclusive benefits and updates</li>
+      </ul>
+    </div>
+    <div class="form-section">
+      <form action="/register" method="post">
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
+        
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Enter your last name">
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        
+        <div class="terms">
+          <input type="checkbox" id="terms" name="terms" required>
+          <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+        </div>
+        
+        <button type="submit" class="submit-btn">Create Account</button>
+      </form>
+      <div class="alternative">
+        <p>Or sign up with:</p>
+        <button class="google">Google</button>
+        <button class="apple">Apple</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Your Company. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
