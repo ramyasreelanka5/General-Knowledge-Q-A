@@ -39,6 +39,11 @@ An intelligent, semantic Q&A application that allows users to **upload any PDF d
 - Gradio
 
 ---
+## 🧪 Example
+
+ - PDF: A research paper
+ - Question: “What were the main findings?”
+ - Answer: “The study concluded that ...”
 
 
 
