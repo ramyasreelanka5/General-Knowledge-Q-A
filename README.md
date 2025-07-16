@@ -40,8 +40,5 @@ An intelligent, semantic Q&A application that allows users to **upload any PDF d
 
 ---
 
-## ⚙️ Installation
-
-1️⃣ Clone this repo:
 
 
